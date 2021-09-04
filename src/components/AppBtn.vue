@@ -1,11 +1,9 @@
 <template>
-  <button>{{texto}}</button>
+<button class="h-12 bg-transparent border-white border-2 text-white px-8 rounded-full block">    <slot></slot>
+  </button>
 </template>
 
-<script>
-export default {
-    props:["texto"]
-}
+<script setup>
 </script>
 
 <style>
